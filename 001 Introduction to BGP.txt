@@ -1,0 +1,48 @@
+What is BGP?
+Is the only routing protocol design to communicate between autonomous systems and it is also known as an Exterior Gateway protocol.
+Unlike Internal gateway protocol design to communicate within the same AS
+
+What is an Autonomous system or AS?
+Is a collection of networks under a single domain.
+or 
+Is a number that identify an organisation.
+
+BGP Features
+1.	BGP is an open standard protocol – which means it does not belong to any one and can be used on all supported devices.
+2.	Is an Exterior Gateway protocol – it means it is going to exchange route between two or more AS.
+3.	It is design for inter-AS domain routing.
+4.	It is design to scale huge inter-network like internet.
+5.	It supports classless.
+6.	BGP is path vector protocol - it maintains the AS path information.
+7.	It sends updates to manually define neighbours as unicast.
+8.	BGP application layer uses TCP port 179.
+9.	BGP uses is attributes as metric.
+10.	BGP administrative distance is:
+            20 External updates (EBGP)
+            200 Internal updates (IBGP)
+
+BGP’s loop prevention mechanism.
+
+Whenever any route is getting to the AS, it will check and if it sees it own AS number inside, it is not going to accept that route.
+
+
+When to use BGP?
+1.	If you are an Internet Service Provider or ISP – Internet is the biggest network, and it is maintained by service provider. 
+        Service provider connects to each other, and they maintain the biggest network with is internet.
+
+2.	If you are connected to multiple ISP and you want to do some path manipulation.
+
+
+When not to use BGP
+1.	If you are connected to only one service provider.
+
+2.	If you lack resources – if you run BGP you will need to install all the route of the internet coming from your ISP.
+        You need high end devices with lost of CPU power and big memory.
+
+3.	If you have a limited understanding of BGP
+
+
+
+
+
+
